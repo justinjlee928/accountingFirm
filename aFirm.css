@@ -3,20 +3,32 @@ html, body {
   padding: 0;
   width: 100%;
   height: 100%;
+  overflow-x: hidden;
 }
 
 /* Start NavBar */
 nav {
-  line-height: 50px;
+  position: fixed;
+  background-color: white;
+  width: 100%;
+  height: 70px;
+  top: 0;
 }
 
 .left {
   float: left;
   font-size: 38px;
+  line-height: 70px;
+  font-family: monospace;
 }
 
 .right {
   float: right;
+  line-height: 70px;
+}
+
+nav ul {
+  margin: 0;
 }
 
 nav ul li {
@@ -32,3 +44,47 @@ nav ul li a {
 }
 
 /* End NavBar */
+
+/* Start Header */
+
+header {
+  background-image: url("https://images.unsplash.com/photo-1524439210809-5b21a2e18582?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1402&q=80");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 65%;
+}
+
+.header-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 65%;
+}
+
+header p {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  margin: 0;
+  color: white;
+  font-size: 48px;
+  padding: 20px;
+  margin-left: 40px;
+}
+
+.button-container {
+  width: 75%;
+  display: flex;
+  justify-content: flex-start;
+}
+
+header a {
+  text-decoration: none;
+  color: white;
+  border: 2px solid white;
+  padding: 10px 20px;
+}
