@@ -124,16 +124,99 @@ header a {
   border-right: 10px solid white;
 }
 
+.inside-picture {
+  width: 600px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inside-words {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  width: 600px;
+  padding: 20px 0;
+}
+
+.insight-title {
+  margin: 0;
+  padding: 10px 0;
+  font-size: 38px;
+  font-family: sans-serif;
+}
+
+.insight-title a {
+  text-decoration: underline;
+  color: black;
+}
+
+.insight-title a:hover {
+  text-decoration: none;
+  opacity: 80%;
+}
+
+.insight-paragraph {
+  margin: 0;
+  width: 500px;
+  text-align: center;
+  font-size: 24px;
+  color: black;
+}
+
 .picture-2 {
-  background-image: url("https://i.pinimg.com/236x/62/e8/80/62e880f2b23707ef6759ed9cbceed6ba.jpg");
+  background-image: url("https://image.freepik.com/free-photo/stock-market-forex-trading-graph-graphic-concept_73426-170.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
   height: 400px;
   width: 600px;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-color: white;
   border-top: 20px solid white;
   border-left: 10px solid white;
   border-bottom: 10px solid white;
   border-right: 20px solid white;
+}
+
+.insight-words-reversed {
+  height: 140px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 600px;
+  padding: 20px 0;
+}
+
+.insight-title-reversed {
+  margin: 0;
+  padding: 10px 0;
+  font-size: 38px;
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  width: 600px;
+}
+
+.insight-title-reversed a {
+  text-decoration: underline;
+  color: white;
+}
+
+.insight-title-reversed a:hover {
+  text-decoration: none;
+  opacity: 80%;
+}
+
+.insight-paragraph-reversed {
+  margin: 0;
+  width: 500px;
+  text-align: center;
+  font-size: 24px;
+  color: white;
 }
 
 .picture-3 {
