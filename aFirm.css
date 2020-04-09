@@ -295,7 +295,8 @@ header a {
 
 #industries {
   margin-top: 20px;
-  height: 680px;
+  height: 750px;
+  background-color: lightgray;
 }
 
 #industries i {
@@ -380,5 +381,85 @@ header a {
   color: white;
 }
 
+.industries-title {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+}
+
+.industries-title p {
+  margin: 10px 0;
+}
+
 /* End Section Three */
 /* Start Section Four */
+
+.services-container {
+  display: flex;
+  flex-direction: column;
+}
+
+#services {
+  display: flex;
+}
+
+#services figure {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#services img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+}
+
+#services figcaption {
+  text-align: center;
+  font-weight: bold;
+  font-size: 24px;
+  padding: 20px 0;
+}
+
+#services p {
+  font-size: 18px;
+  text-align: center;
+  margin: 0;
+}
+
+.services-button {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+
+.services-container a {
+  border: 1px solid #586ed1;
+  border-radius: 5px;
+  text-decoration: none;
+  padding: 10px 20px;
+  color: black;
+}
+
+.services-container a:hover {
+  background-color: #586ed1;
+  color: white;
+}
+
+.services-title {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 44px;
+}
+
+.services-title p {
+  margin: 10px 0;
+}
