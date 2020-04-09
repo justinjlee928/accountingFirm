@@ -292,3 +292,93 @@ header a {
 
 /* End Section Two */
 /* Start Section Three */
+
+#industries {
+  margin-top: 20px;
+  height: 680px;
+}
+
+#industries i {
+  font-size: 50px;
+  color: #586ed1;
+}
+
+.upper-container {
+  display: flex;
+  height: 300px;
+  width: 100%;
+  margin: 0;
+  justify-content: center;
+}
+
+.lower-container {
+  display: flex;
+  height: 300px;
+  width: 100%;
+  margin: 0;
+  justify-content: center;
+}
+
+.asset-management, .banking-and-capital, .energy {
+  width: 400px;
+  padding: 10px;
+  margin: 20px;
+}
+
+.asset-management h4, .banking-and-capital h4, .energy h4 {
+  font-size: 24px;
+}
+
+.asset-management p, .banking-and-capital p, .energy p {
+  font-size: 18px;
+}
+
+.government, .life-sciences, .insurance {
+  width: 400px;
+  padding: 10px;
+  margin: 20px;
+}
+
+.government h4, .life-sciences h4, .insurance h4 {
+  font-size: 24px;
+}
+
+.government p, .life-sciences p, .insurance p {
+  font-size: 18px;
+}
+
+.asset-management:hover, .banking-and-capital:hover, .energy:hover {
+  border: 1px solid #586ed1;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.government:hover, .life-sciences:hover, .insurance:hover {
+  border: 1px solid #586ed1;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.industries-button {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+
+#industries a {
+  border: 1px solid #586ed1;
+  border-radius: 5px;
+  text-decoration: none;
+  padding: 10px 20px;
+  color: black;
+}
+
+#industries a:hover {
+  background-color: #586ed1;
+  color: white;
+}
+
+/* End Section Three */
+/* Start Section Four */
