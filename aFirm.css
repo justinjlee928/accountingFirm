@@ -242,3 +242,53 @@ header a {
   border-bottom: 20px solid white;
   border-right: 20px solid white;
 }
+
+/* End Section One*/
+/* Start Section Two */
+
+#news {
+    background-image: url("https://i.pinimg.com/564x/13/72/56/1372566141cf2cbaea51392e7e2a7aeb.jpg");
+    width: 100%;
+    height: 30%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.news-container {
+  width: 100%;
+  height: 290px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.news-title{
+  font-size: 48px;
+  color: white;
+  margin: 0;
+}
+
+.news-content {
+  font-size: 28px;
+  color: white;
+  width: 800px;
+  text-align: center;
+}
+
+#news a {
+  border: 2px solid white;
+  text-decoration: none;
+  padding: 10px 20px;
+  color: white;
+  font-size: 20px;
+}
+
+#news a:hover {
+  opacity: 80%;
+  text-decoration: underline;
+}
+
+/* End Section Two */
+/* Start Section Three */
