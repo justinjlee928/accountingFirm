@@ -550,3 +550,45 @@ header a {
 }
 
 /* End Section Five */
+/* Start Section Six */
+
+#blog-two {
+  background-image: url("https://i.pinimg.com/564x/5b/99/40/5b99407d16eced35549dcf0626f049c2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 400px;
+}
+
+.blog-two-container {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.blog-two-title{
+  width: 1000px;
+  font-size: 58px;
+  margin: 0;
+  color: black;
+}
+
+.blog-two-content {
+  width: 1000px;
+  color: black;
+  font-size: 28px;
+}
+
+#blog-two a {
+  width: 1000px;
+  font-size: 28px;
+  color: black;
+}
+
+#blog-two a:hover {
+  text-decoration: none;
+}
