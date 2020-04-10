@@ -463,3 +463,90 @@ header a {
 .services-title p {
   margin: 10px 0;
 }
+
+/* End Section Four */
+/* Start Section Five */
+
+#blog {
+  display: flex;
+}
+
+.blog-left {
+  width: 50%;
+  background-color: #6a1fcc;
+  margin-right: 10px;
+  height: 300px;
+}
+
+.blog-left-container {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.blog-left-title {
+  width: 600px;
+  font-size: 48px;
+  color: white;
+  margin: 0;
+}
+
+.blog-left p {
+  width: 600px;
+  font-size: 28px;
+  color: white;
+}
+
+.blog-left a {
+    font-size: 28px;
+    color: white;
+    width: 600px;
+}
+
+.blog-left a:hover {
+  text-decoration: none;
+}
+
+.blog-right {
+  width: 50%;
+  background-color: #2869e0;
+  margin-left: 10px;
+  height: 300px;
+}
+
+.blog-right-container {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.blog-right-title {
+  width: 600px;
+  font-size: 48px;
+  color: white;
+  margin: 0;
+}
+
+.blog-right p {
+  width: 600px;
+  font-size: 28px;
+  color: white;
+}
+
+.blog-right a {
+    font-size: 28px;
+    color: white;
+    width: 600px;
+}
+
+.blog-right a:hover {
+  text-decoration: none;
+}
+
+/* End Section Five */
